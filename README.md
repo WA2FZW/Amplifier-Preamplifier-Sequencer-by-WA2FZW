@@ -1,4 +1,5 @@
 Amplifier/Preamplifier/SDR Switch Sequencer Version 1.4
+
 By: John Price – WA2FZW - November 24, 2022
 
 This is a software controlled sequencer designed to be able
