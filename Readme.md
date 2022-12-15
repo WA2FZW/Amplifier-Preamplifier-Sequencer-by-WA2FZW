@@ -18,4 +18,6 @@ that was included in earlier versions of the hardware and
 software.
 
 The documentation, software and Gerber files to make the
-version 1.4 PCBs are still available here.
+version 1.4 PCBs are still available here. That version
+still has the transmit inhibit capability for the Yaesu
+FT-891 and can still be used.
