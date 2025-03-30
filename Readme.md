@@ -1,23 +1,23 @@
-Amplifier/Preamplifier/SDR Switch Sequencer Version 1.5
-
-By: John Price – WA2FZW - December 15, 2022
+Amplifier/Preamplifier/SDR Switch Sequencer Version 2.0
+By: John Price – WA2FZW - March 30, 2025
 
 This is a software controlled sequencer designed to be able
-to control a low-noise mast-mounted preamplifier, a linear
-amplifier and an SDR switching device.
+to control two low-noise mast-mounted preamplifiers, linear
+amplifiers and SDR switching devices when used with the
+Icom IC-9700 on any two of the three bands that radio can
+operate on.
 
 The timing of the sequencing is controlled by the software
 in an Arduino Nano.
 
-Version 1.5 is designed specifically for use with my Icom
-IC-9700 and can control 2 linear amplifiers, 2 low-noise
-preamplifiers and 2 SDR switching devices on any two of
-the three bands that radio can operate on. Version 1.5 no
-longer has the transmit inhibit capability for my FT-891
-that was included in earlier versions of the hardware and
-software.
+Version 2.0 is an improvement over previous versions in
+that the sequencing can be initiated via a DTR or RTS
+signal from an optional USB to TTL interface. The
+sequencing can also be initiated via an optional footswitch.
+This has the advantage of being able to put the radio
+into transmit mode after the preamps and amplifiers have
+been switched.
 
 The documentation, software and Gerber files to make the
 version 1.4 PCBs are still available here. That version
-still has the transmit inhibit capability for the Yaesu
-FT-891 and can still be used.
+is designed for use with my Yaesu FT-891.
